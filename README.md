@@ -1,7 +1,6 @@
 # CSS Guidebook
 
-To develop css we use css preprocessor with `SCSS` syntax and **BEM Methodology**.
-
+To develop **SASS** with **SCSS** syntax and **BEM Methodology** is used.
 
 ## BEM Methodology
 
@@ -23,6 +22,7 @@ More info [here](https://en.bem.info/methodology/quick-start/) and [here](https:
 
 ## CSS Preprocessors
 CSS preprocessors are easly described as css with super powers :). It compiles the code into readble css files on build time which helps the development and keep goo dstadards for the team.
+
 
 More about it [here](https://sass-lang.com/)
 
