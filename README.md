@@ -3,7 +3,7 @@
 To develop css we use css preprocessor with `SCSS` syntax and **BEM Methodology**.
 
 
-# BEM Methodology
+## BEM Methodology
 
 The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project.
 
@@ -21,7 +21,7 @@ Here’s an example of what a CSS developer writing in the BEM style might write
 ```
 More info [here](https://en.bem.info/methodology/quick-start/) and [here](https://css-tricks.com/bem-101/) 
 
-### CSS Preprocessors
+## CSS Preprocessors
 CSS preprocessors are easly described as css with super powers :). It compiles the code into readble css files on build time which helps the development and keep goo dstadards for the team.
 
 More about it [here](https://sass-lang.com/)
