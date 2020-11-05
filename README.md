@@ -1,3 +1,4 @@
+![](https://spacein.co.uk/images/logo.svg)
 # CSS Guidebook
 
 To develop **SASS** with **SCSS** syntax and **BEM Methodology** is used.
