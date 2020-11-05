@@ -21,7 +21,7 @@ Here’s an example of what a CSS developer writing in the BEM style might write
 ```
 More info [here](https://en.bem.info/methodology/quick-start/) and [here](https://css-tricks.com/bem-101/) 
 
-#### CSS Preprocessors
+### CSS Preprocessors
 CSS preprocessors are easly described as css with super powers :). It compiles the code into readble css files on build time which helps the development and keep goo dstadards for the team.
 
 More about it [here](https://sass-lang.com/)
@@ -30,8 +30,7 @@ More about it [here](https://sass-lang.com/)
 What is de difference between **SASS** and **SCSS**?
 Once of the mains diferences are that SASS is used when we need a original syntax, code syntax is not required for SCSS. SASS follows strict indentation, SCSS has no strict indentation. SASS has a loose syntax with white space and no semicolons, the SCSS resembles more to CSS style and use of semicolons and braces are mandatory.
 
-
-#### Variables
+### Variables
 
 Variables in SCSS works the same as in javascript, they can store value which can be passed on to your stylesheets to use.
 A variable is initialized like:
