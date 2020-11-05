@@ -90,6 +90,46 @@ and call it like
 }
 ```
 
+### Concatanation / &(The Sass Ampersand)
+
+The & is an extremely useful feature in Sass (and Less). It’s used when nesting. It can be a nice time-saver when you know how to use it, or a bit of a time-waster when you’re struggling and could have written the same code in regular CSS. 
+
+Define a `.user-icon` class style with a style on the `img` and a  style class on the `.user-icon .initials` child element.
+
+```
+<div class="user-icon">
+    <div class="initials">
+    </div>
+</div>
+```
+
+```
+.user-icon {
+    /*border-radius: 1000px;*/
+    border: var(--border-size) solid $active-user-room;
+    /* border: 3px solid var(--active-user-room); */
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    border-radius:50%;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius:50%;
+      }
+      &.initials {
+        background: white;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        display: grid;
+        align-content: center;
+      }
+  }
+
+  
+```
+
 ### How to createa and use scss file inside Vue component
 
 To use scss inside a Vue component the `<style>` node has to be have `lang="scss"` attribute.
