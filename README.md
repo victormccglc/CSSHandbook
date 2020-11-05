@@ -118,4 +118,5 @@ The `scss/` folder copys the folder structure of the Vue components.
 - `./scss/variables.scss` - holds all the variables
 - `./scss/functions.scss` - holds all the functions
 - `./scss/mixins.scss` - holds all the mixin declarations
+
 ![](https://raw.githubusercontent.com/victormccglc/CSSHandbook/main/project-structure.PNG)
