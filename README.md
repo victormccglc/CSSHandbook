@@ -105,24 +105,13 @@ Define a `.user-icon` class style with a style on the `img` and a  style class o
 
 ```
 .user-icon {
-    /*border-radius: 1000px;*/
-    border: var(--border-size) solid $active-user-room;
-    /* border: 3px solid var(--active-user-room); */
-    overflow: hidden;
-    transition: all 0.3s ease-out;
     border-radius:50%;
-    & img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius:50%;
-      }
-      &.initials {
+    border:1px solid red;
+      & .initials {
         background: white;
         height: 100%;
         width: 100%;
         text-align: center;
-        display: grid;
         align-content: center;
       }
   }
