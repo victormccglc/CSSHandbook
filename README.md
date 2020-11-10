@@ -90,7 +90,7 @@ and call it like
 }
 ```
 
-### Concatanation / &(The Sass Ampersand)
+### Concatenation / &(The Sass Ampersand)
 
 The & is an extremely useful feature in Sass (and Less). It’s used when nesting. It can be a nice time-saver when you know how to use it, or a bit of a time-waster when you’re struggling and could have written the same code in regular CSS. 
 
