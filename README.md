@@ -93,12 +93,11 @@ and call it like
 ### Concatenation / &(The Sass Ampersand)
 
 The & is an extremely useful feature in Sass (and Less). It’s used when nesting. It can be a nice time-saver when you know how to use it, or a bit of a time-waster when you’re struggling and could have written the same code in regular CSS. 
-
-Define a `.user-icon` class style with a style on the `img` and a  style class on the `.user-icon .initials` child element.
+It is easier to class names, class depenedcies and construct class names that derive from a parent class.
 
 ```
 <div class="user-icon">
-    <div class="initials">
+    <div class="user-name initials">
     </div>
 </div>
 ```
@@ -107,13 +106,17 @@ Define a `.user-icon` class style with a style on the `img` and a  style class o
 .user-icon {
     border-radius:50%;
     border:1px solid red;
-      & .initials {
+    &-name{
+    text-transform:uppercase;
+     & .initials {
         background: white;
         height: 100%;
         width: 100%;
         text-align: center;
         align-content: center;
       }
+    }
+     
   }
 
   
