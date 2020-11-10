@@ -122,9 +122,9 @@ It is easier to class names, class depenedcies and construct class names that de
   
 ```
 
-### How to createa and use scss file inside Vue component
+### How to use
 
-To use scss inside a Vue component the `<style>` node has to be have `lang="scss"` attribute.
+To use scss inside a Vue component, the `<style>` node has to be have `lang="scss"` attribute.
 ```
 <style lang="scss" scoped>
 </style>
